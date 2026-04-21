@@ -28,7 +28,7 @@ import json
 import time
 
 
-os.environ["DEEPSEEK_API_KEY"] = "sk-6cc2b53687d341bda782241fd6d01130"
+os.environ["DEEPSEEK_API_KEY"] = ""
 
 def invoke_with_retry(runnable, payload, max_attempts=4, base_delay=1.5):
     """
