@@ -33,7 +33,7 @@ BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR / "model"
 
 
-os.environ["DEEPSEEK_API_KEY"] = "sk-7eb44ba6fc80485cb9acdf7dd9ae6ad0"
+os.environ["DEEPSEEK_API_KEY"] = ""
 
 def invoke_with_retry(runnable, payload, max_attempts=4, base_delay=1.5):
     """
